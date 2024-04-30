@@ -13,6 +13,14 @@ const popup = document.querySelector('.pop-up')
 
 
 
+      $(document).ready(function(){
+        $('#istbtn').click(function(){
+         $('.pop-up').toggle(1000);
+        })
+         
+     
+     });
+
 
 
 
